@@ -1,0 +1,9 @@
+et HTTP_PROXY=http://10.100.1.124:3128
+set HTTPS_PROXY=http://10.100.1.124:3128
+
+git config --global http.proxy 10.100.1.124:3128
+git config --global https.proxy 10.100.1
+.124:3128
+
+npm config set proxy http://10.100.1.124:3128
+npm config set https-proxy http://10.100.1.124:3128
